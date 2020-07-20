@@ -1,0 +1,68 @@
+body{
+	 width:100%;
+	 max-width:800px;
+     background:url(background/wall.jpg);
+	 }
+			 
+.board{														
+	 position:fixed;
+	 left:250px;
+	 top:-40px;
+	 }
+
+#nail{
+	 position:fixed;
+	 left:508px;
+	 top: 23px;
+	 }
+	 
+.socialMedia{
+    position:fixed;
+	top:320px;
+	left:300px;
+	font-weight:bolder;
+}
+
+.links{
+  position:fixed;
+  top:380px;
+  left:535px;
+  transform:translateX(-50%) translateY(-50%);
+}
+
+ #logos{
+  position:fixed;
+  top:355px;
+  left:380px;
+}
+
+#email{
+  position:fixed;
+  top:313px;
+  left:377px;
+}
+
+ul{
+	display:inline-block;
+	margin: 10px 0;
+}
+
+ul a{
+	text-decoration:none;
+	display: inline-block;
+	font-weight: lighter;
+	font-size:17px;
+}
+.cool-link::after{
+	content: ' ';
+	display:block;
+	width:0;
+	height:2px;
+	background:green;
+	transition:width .3s;
+	
+}
+.cool-link:hover::after{	
+	width:100%;
+	transform:width .3s;	
+}

@@ -1,0 +1,88 @@
+body {
+	background-image: url('background/brick.jpg');
+    max-height:1080px;
+	}
+	
+#photo{
+	position:fixed;
+	left:15px;
+	top:10px;
+	}
+
+#buttons{
+	position:fixed;
+	top:223px;
+	left:9px;
+	}
+
+#socialMedia{
+	position:fixed;
+	top:463px;
+	left:12px;
+	}
+
+#email{
+	position:fixed;
+	top:454px;
+	left:97px;
+	}
+
+#hang{
+	position:fixed;
+	top:510px;
+	left:0px;
+	}
+
+#res{
+	position:fixed;
+	top:570px;
+	left:33px;
+	transition:transform.2s;
+	}
+	
+#res:hover {
+    transform:scale(1.2);
+	}
+#shelfy{
+	position:fixed;
+	top:440px;
+	left:8px;
+	}
+#menuText{
+	position:absolute;
+	font-size:16px;
+	top:310px;
+    left:40px;
+	transform:translateX(-50%) translateY(-50%);
+    }
+a{ color: black;
+	   text-decoration:none;
+	}
+
+ul{
+	display:inline-block;
+	margin: 22px 0;
+}
+
+ul a{
+	text-decoration:none;
+	display: inline-block;
+	color:black;
+	font-family: Arial;
+	font-weight: bold;
+	font-size:15px;
+	
+}
+.cool-link::after{
+	content: ' ';
+	display:block;
+	width:0;
+	height:2px;
+	background:blue;
+	transition:width .3s;
+	
+}
+.cool-link:hover::after{	
+	width:100%;
+	transform:width .3s;	
+}
