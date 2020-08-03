@@ -32,7 +32,7 @@ body {
 	top:510px;
 	left:0px;
 	}
-
+	
 #res{
 	position:fixed;
 	top:570px;
@@ -55,6 +55,7 @@ body {
     left:40px;
 	transform:translateX(-50%) translateY(-50%);
     }
+	
 a{ color: black;
 	   text-decoration:none;
 	}
