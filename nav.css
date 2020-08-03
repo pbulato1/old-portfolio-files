@@ -43,7 +43,7 @@ body {
 #res:hover {
     transform:scale(1.2);
 	}
-#shelfy{
+#shelf{
 	position:fixed;
 	top:440px;
 	left:8px;
