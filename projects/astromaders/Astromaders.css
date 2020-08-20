@@ -1,0 +1,46 @@
+body{
+ background-color:gray;
+ background:url(background.jpg);
+ background-size:100%;
+ background-height:60%;
+}
+.banner{
+ margin-left: 270px;
+ margin-right: auto;
+ position:;
+ width:50%;
+ height:50%;   
+}
+
+.gallery{
+position:fixed;
+top:160px;
+left:980px;
+}
+
+.row {
+  position:fixed;
+  top:225px;
+  left:800px;
+}
+
+.photo{	
+	transition:transform.6s;
+	}
+	
+.photo:hover {
+    transform:scale(2.6);
+	}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 150px;  
+  height:80px;
+}

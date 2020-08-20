@@ -1,0 +1,44 @@
+body{
+ background-color:#880015;
+ background-size:100%;
+ background-height:60%;
+}
+.banner{
+ margin-left: 390px;
+ margin-right: auto;
+ width:30%;
+ height:30%;   
+}
+
+.gallery{
+position:fixed;
+top:215px;
+left:980px;
+}
+
+.row {
+  position:fixed;
+  top:290px;
+  left:800px;
+}
+
+.photo{	
+	transition:transform.6s;
+	}
+	
+.photo:hover {
+    transform:scale(2.6);
+	}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 150px;  
+  height:80px;
+}
