@@ -1,0 +1,86 @@
+	  
+body{
+	 width:100%;
+	 max-width:800px;
+     background:url(background/wall.jpg);
+	 }
+	
+.astromadersBoard{
+     position:fixed;
+	 top:-40px;
+	 left:105px;
+}
+	
+.hrasBoard{														
+	 position:fixed;
+	 top:337px;
+	 left:105px; 
+	 }
+	 
+.ping4pongBoard{														
+	 position:fixed;
+	 top:337px;
+	 left:595px;
+     }
+	 
+.skiPenguinBoard{
+    position:fixed;
+	top:-40px;
+	left:1080px;
+}
+
+.gmsBoard{
+    position:fixed;
+	top:-40px;
+	left:590px;
+}
+
+.ucBoard{
+    position:fixed;
+	top:337px;
+	left:1090px;
+}
+
+#astromaders{
+     position:fixed;
+	 top:95px;
+	 left:15px;
+}
+
+#skiPenguin{
+    position:fixed;
+	top:95px;
+	left:980px; 
+}
+
+#gms{
+	position:fixed;
+	top:95px;
+	left:500px; 	
+}
+	
+#ping4pong{
+	 position:fixed;
+	 top:465px;
+	 left:500px; 
+	 }
+	 
+#hras{
+	 position:fixed;
+	 top:465px;
+	 left:15px;	 
+     }	
+	 
+#uc{
+	 position:fixed;
+	 top:475px;
+	 left:1100px;	 
+     }		 
+
+.title{
+     transition:transform.3s;
+}
+
+.title:hover {
+    transform:scale(1.2);
+}

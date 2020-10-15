@@ -5,8 +5,8 @@ body {
 	
 #photo{
 	position:fixed;
-	left:15px;
-	top:10px;
+	left:2px;
+	top:15px;
 	}
 
 #buttons{
@@ -14,8 +14,6 @@ body {
 	top:223px;
 	left:9px;
 	}
-
-
 
 #hang{
 	position:fixed;
